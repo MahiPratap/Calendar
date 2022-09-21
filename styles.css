@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Calendar{
+    margin: auto;
+    width: 60%;
+    /* margin-left: 10%; */
+    margin-top: 60px;
+
+}
+.calendarTable{
+    
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.calendarTable thead tr th{
+    background: rgb(197, 12, 12);
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    color: white;
+}
+
+.calendarTable tr td{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid rgb(236, 81, 81);
+    background-color: rgb(245, 241, 236);
+}
+.calendarbtns{
+    background-color: rgb(7, 53, 93);
+    padding: 10px 0px;
+    margin: auto;
+    width: 100%;
+}
+.calendarbtns button{
+    padding: 6px 12px;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    border-radius: 6px;
+    cursor: pointer;
+}
+button{
+    
+    background-color: rgb(255, 30, 169);
+}
+
+.calendarDiv{
+    display: none;
+
+}
+#calendarTable1{
+    display: block;
+
+}
+@media(max-width:1020px){
+    html{
+        font-size: 65%;
+    }
+}
+
+
+@media(max-width:768){
+    html{
+        font-size: 45%;
+    }
+}
